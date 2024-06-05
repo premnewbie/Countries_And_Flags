@@ -1,9 +1,10 @@
 import './App.css';
+import Countries from './Components/Countries';
 
 function App() {
   return (
     <div className="App">
-      Creating a countries and flag app
+      <Countries />
     </div>
   );
 }
