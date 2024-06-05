@@ -21,7 +21,7 @@ const Countries = () => {
     },[]);
 
     return ( 
-        <div id="countries">
+        <div id="countries-flags">
             {apiData?.map((card)=> (
                 <CountryCard cardData={card} key={card.name.common} />
             ))}      
